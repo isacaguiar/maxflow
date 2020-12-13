@@ -1,0 +1,55 @@
+
+<table cellspacing="0">
+  <tr>
+    <td valign="top">
+
+      <table cellspacing="0" bgcolor="#eeeeee" style="border-style:solid;border-width:1px;border-color:black;">
+
+
+
+  <tr>
+    <th nowrap="true" colspan="2">
+      <h3>Início do processo</h3>
+      <hr>
+    </td>
+  </tr>
+
+
+
+	  	<tr title="Message">
+          <td align="right">
+            Mensagem:
+          </td>
+          <td>
+	    <textarea name="message" cols="25" rows="4"></textarea>
+          </td>
+        </tr>
+
+	<tr title="Observation">
+          <td align="right">
+            Observação:
+          </td>
+          <td>
+            <textarea name="observation" cols="25" rows="4"/></textarea>
+          </td>
+        </tr>
+
+
+
+  <tr>
+    <td nowrap="true" align="right" colspan="2">
+      <hr>
+      <input type="submit" name="submitbutton" value="Ok" />
+    </td>
+  </tr>
+
+      </table>
+
+    </td>
+    <td valign="top">
+      ${image:forms/process.jpg}
+    </td>
+  </tr>
+</table>
+
+<input type="hidden" name="time" value="4" />
